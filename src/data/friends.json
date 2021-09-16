@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://as2.ftcdn.net/v2/jpg/02/11/87/13/500_F_211871349_MzhoDp8LblQStzzTveAEx9biYX2moSO1.jpg",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://as2.ftcdn.net/v2/jpg/00/65/98/57/1000_F_65985712_DGGw40pNccOytvcvSi0KtvHngrIn5jV9.jpg",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://as1.ftcdn.net/v2/jpg/01/00/04/74/1000_F_100047498_E9KZsAVzOM82iPwSv9Tubl37qLKPm4Mq.jpg",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://as2.ftcdn.net/v2/jpg/00/92/72/31/1000_F_92723161_pQFgQVHOB9ixgz7Ag41ZHQmtdqibt0lY.jpg",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://as1.ftcdn.net/v2/jpg/04/51/08/36/1000_F_451083675_w6wiDIhnmpj8PXsqRfxxIvJwOKZ7xN5q.jpg",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]
