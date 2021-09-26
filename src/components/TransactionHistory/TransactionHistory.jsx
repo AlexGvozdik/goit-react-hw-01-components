@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { TableStyled } from './TransactionHistory.styled';
 const TransactionHistory = ({ items }) => {
-    console.log('items :>> ', items);
     return (
         <TableStyled className="transaction-history">
   <thead>

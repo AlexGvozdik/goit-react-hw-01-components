@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { ProfileDiv, Description, Image, Name, Tag, Location, Stats, Quantity } from './Profile.styled'
 
 const Profile = ({ avatar, name, location, tag, stats: { followers, views, likes } }) => {
-    console.log('user :>> ', views);
     return (
         <ProfileDiv className='profile'>
             <Description className='description'>
@@ -35,16 +34,16 @@ const Profile = ({ avatar, name, location, tag, stats: { followers, views, likes
     );
 }
 
-// Profile.propTypes = {
-//     avatar: PropTypes.string.isRequired,
-//     name: PropTypes.string.isRequired,
-//     location: PropTypes.string.isRequired,
-//     tag: PropTypes.string.isRequired,
-//     stats: PropTypes.shape({
-//         followers: PropTypes.number.isRequired,
-//         views: PropTypes.number.isRequired,
-//         likes: PropTypes.number.isRequired,
-//     }),
-// }
+Profile.propTypes = {
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    stats: PropTypes.shape({
+        followers: PropTypes.number.isRequired,
+        views: PropTypes.number.isRequired,
+        likes: PropTypes.number.isRequired,
+    }),
+}
 
 export default Profile;

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Friend from './Friend'
 import { List } from './FriendList.styled';
 const FriendList = ({ friends }) => {
-    console.log('friends :>> ', friends);
     return (
         <List class="friend-list">
             {friends.map(({avatar,isOnline, name, id }) => (
